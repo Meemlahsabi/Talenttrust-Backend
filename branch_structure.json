@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feature/contracts-32-audit",
+    "feature/reputation-32-audit",
+    "main",
+    "origin",
+    "test/reputation-31-concurrency"
+  ],
+  "parent": {
+    "feature/contracts-32-audit": "main",
+    "feature/reputation-32-audit": "main",
+    "main": null,
+    "origin": "main",
+    "test/reputation-31-concurrency": "main"
+  },
+  "order": [
+    "main",
+    "feature/contracts-32-audit",
+    "feature/reputation-32-audit",
+    "origin",
+    "test/reputation-31-concurrency"
+  ]
+}
